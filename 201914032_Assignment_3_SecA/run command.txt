@@ -1,0 +1,8 @@
+flex sample.l
+gcc lex.yy.c -lfl
+.\a.out
+
+or
+flex sample.l
+gcc lex.yy.c 
+a.exe

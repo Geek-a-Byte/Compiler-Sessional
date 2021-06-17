@@ -1,0 +1,289 @@
+<keyword, int>, Line Number= 1
+<whitespace, __ __>, Line Number= 1
+<keyword, main>, Line Number= 1
+<parenthesis , (>, Line Number=1
+<parenthesis , )>, Line Number=1
+   newline starts-------
+
+------newline ends
+<Curly Bracket, {>, Line Number= 2
+   newline starts-------
+
+------newline ends
+<whitespace, __	__>, Line Number= 3
+<keyword, int>, Line Number= 3
+<whitespace, __ __>, Line Number= 3
+<identifier, choice>, Line Number= 3
+<Seperator , ,>, Line Number= 3
+<identifier, i>, Line Number= 3
+<Seperator , ,>, Line Number= 3
+<identifier, j>, Line Number= 3
+<Seperator , ,>, Line Number= 3
+<identifier, a>, Line Number= 3
+<Assignment Operator, =>, Line Number=3
+<Number, 5>, Line Number= 3
+<Seperator , ,>, Line Number= 3
+<identifier, b>, Line Number= 3
+<Assignment Operator, =>, Line Number=3
+<Number, 10>, Line Number= 3
+<Seperator , ,>, Line Number= 3
+<identifier, c>, Line Number= 3
+<Assignment Operator, =>, Line Number=3
+<Number, 1>, Line Number= 3
+<Seperator , ,>, Line Number= 3
+<identifier, d>, Line Number= 3
+<Assignment Operator, =>, Line Number=3
+<Number, 2>, Line Number= 3
+<Seperator , ,>, Line Number= 3
+<identifier, _oddsum>, Line Number= 3
+<Assignment Operator, =>, Line Number=3
+<Number, 0>, Line Number= 3
+<Seperator , ,>, Line Number= 3
+<identifier, _evensum>, Line Number= 3
+<Assignment Operator, =>, Line Number=3
+<Number, 0>, Line Number= 3
+<Seperator , ;>, Line Number= 3
+   newline starts-------
+
+------newline ends
+<whitespace, __	__>, Line Number= 4
+<identifier, float>, Line Number= 4
+<whitespace, __ __>, Line Number= 4
+<identifier, num1>, Line Number= 4
+<Assignment Operator, =>, Line Number=4
+<Number, 3.1416>, Line Number= 4
+<Seperator , ;>, Line Number= 4
+   newline starts-------
+
+------newline ends
+<whitespace, __	__>, Line Number= 5
+<identifier, double>, Line Number= 5
+<whitespace, __ __>, Line Number= 5
+<identifier, num2>, Line Number= 5
+<Assignment Operator, =>, Line Number=5
+<Number, 3.15E-2>, Line Number= 5
+<Seperator , ;>, Line Number= 5
+<whitespace, __ __>, Line Number= 5
+   newline starts-------
+
+------newline ends
+<whitespace, __	__>, Line Number= 6
+<identifier, switch>, Line Number= 6
+<parenthesis , (>, Line Number=6
+<identifier, choice>, Line Number= 6
+<parenthesis , )>, Line Number=6
+   newline starts-------
+
+------newline ends
+<whitespace, __	__>, Line Number= 7
+<Curly Bracket, {>, Line Number= 7
+   newline starts-------
+
+------newline ends
+<whitespace, __	__>, Line Number= 8
+<identifier, case>, Line Number= 8
+<whitespace, __ __>, Line Number= 8
+<Number, 1>, Line Number= 8
+<Seperator , :>, Line Number= 8
+   newline starts-------
+
+------newline ends
+<whitespace, __		__>, Line Number= 9
+<keyword, int>, Line Number= 9
+<whitespace, __ __>, Line Number= 9
+<identifier, res>, Line Number= 9
+<Seperator , ;>, Line Number= 9
+   newline starts-------
+
+------newline ends
+<whitespace, __		__>, Line Number= 10
+<identifier, res>, Line Number= 10
+<Assignment Operator, =>, Line Number=10
+<parenthesis , (>, Line Number=10
+<identifier, a>, Line Number= 10
+<Arithmatic Operator, +>, Line Number= 10
+<identifier, b>, Line Number= 10
+-<identifier, c>, Line Number= 10
+<parenthesis , )>, Line Number=10
+*<parenthesis , (>, Line Number=10
+<identifier, d>, Line Number= 10
+<Arithmatic Operator, />, Line Number= 10
+<Number, 2>, Line Number= 10
+<parenthesis , )>, Line Number=10
+<Seperator , ;>, Line Number= 10
+   newline starts-------
+
+------newline ends
+<whitespace, __		__>, Line Number= 11
+<keyword, break>, Line Number= 11
+<Seperator , ;>, Line Number= 11
+   newline starts-------
+
+------newline ends
+<whitespace, __	__>, Line Number= 12
+<identifier, case>, Line Number= 12
+<whitespace, __ __>, Line Number= 12
+<Number, 2>, Line Number= 12
+<Seperator , :>, Line Number= 12
+   newline starts-------
+
+------newline ends
+<whitespace, __		__>, Line Number= 13
+<keyword, for>, Line Number= 13
+<parenthesis , (>, Line Number=13
+<identifier, i>, Line Number= 13
+<Assignment Operator, =>, Line Number=13
+<Number, 1>, Line Number= 13
+<Seperator , ;>, Line Number= 13
+<identifier, i>, Line Number= 13
+<Relational Operator, <=>, Line Number= 13
+<Number, 100>, Line Number= 13
+<Seperator , ;>, Line Number= 13
+<identifier, i>, Line Number= 13
+<Increment Operator, ++>, Line Number= 13
+<parenthesis , )>, Line Number=13
+   newline starts-------
+
+------newline ends
+<whitespace, __	    	__>, Line Number= 14
+<Curly Bracket, {>, Line Number= 14
+   newline starts-------
+
+------newline ends
+<whitespace, __			__>, Line Number= 15
+<keyword, if>, Line Number= 15
+<parenthesis , (>, Line Number=15
+<identifier, i>, Line Number= 15
+<Arithmatic Operator, %>, Line Number= 15
+<Number, 2>, Line Number= 15
+!<Assignment Operator, =>, Line Number=15
+<Number, 0>, Line Number= 15
+<parenthesis , )>, Line Number=15
+   newline starts-------
+
+------newline ends
+<whitespace, __				__>, Line Number= 16
+<identifier, _oddsum>, Line Number= 16
+<Assignment Operator, =>, Line Number=16
+<identifier, _oddsum>, Line Number= 16
+<Arithmatic Operator, +>, Line Number= 16
+<identifier, i>, Line Number= 16
+<Seperator , ;>, Line Number= 16
+   newline starts-------
+
+------newline ends
+<whitespace, __			__>, Line Number= 17
+<identifier, else>, Line Number= 17
+<whitespace, __ __>, Line Number= 17
+<keyword, if>, Line Number= 17
+<parenthesis , (>, Line Number=17
+<identifier, i>, Line Number= 17
+<Arithmatic Operator, %>, Line Number= 17
+<Number, 2>, Line Number= 17
+<Relational Operator, ==>, Line Number= 17
+<Number, 0>, Line Number= 17
+<parenthesis , )>, Line Number=17
+   newline starts-------
+
+------newline ends
+<whitespace, __				__>, Line Number= 18
+<identifier, _evensum>, Line Number= 18
+<Assignment Operator, =>, Line Number=18
+<identifier, _evensum>, Line Number= 18
+<Arithmatic Operator, +>, Line Number= 18
+<identifier, i>, Line Number= 18
+<Seperator , ;>, Line Number= 18
+   newline starts-------
+
+------newline ends
+<whitespace, __	    	__>, Line Number= 19
+<Curly Bracket, }>, Line Number= 19
+   newline starts-------
+
+------newline ends
+<whitespace, __		__>, Line Number= 20
+<keyword, break>, Line Number= 20
+<Seperator , ;>, Line Number= 20
+   newline starts-------
+
+------newline ends
+<whitespace, __	__>, Line Number= 21
+<identifier, case>, Line Number= 21
+<whitespace, __ __>, Line Number= 21
+<Number, 3>, Line Number= 21
+<Seperator , :>, Line Number= 21
+   newline starts-------
+
+------newline ends
+<whitespace, __		__>, Line Number= 22
+<identifier, j>, Line Number= 22
+<Assignment Operator, =>, Line Number=22
+<Number, 10>, Line Number= 22
+<Seperator , ;>, Line Number= 22
+   newline starts-------
+
+------newline ends
+<whitespace, __		__>, Line Number= 23
+<keyword, while>, Line Number= 23
+<parenthesis , (>, Line Number=23
+<identifier, j>, Line Number= 23
+<Relational Operator, >=>, Line Number= 23
+<Number, 1>, Line Number= 23
+<whitespace, __ __>, Line Number= 23
+<Address Operator, &>, Line Number= 23
+<Address Operator, &>, Line Number= 23
+<whitespace, __ __>, Line Number= 23
+<identifier, j>, Line Number= 23
+<Relational Operator, <=>, Line Number= 23
+<Number, 10>, Line Number= 23
+<parenthesis , )>, Line Number=23
+   newline starts-------
+
+------newline ends
+<whitespace, __		__>, Line Number= 24
+<Curly Bracket, {>, Line Number= 24
+   newline starts-------
+
+------newline ends
+<whitespace, __			__>, Line Number= 25
+<identifier, j>, Line Number= 25
+--<Seperator , ;>, Line Number= 25
+<whitespace, __	__>, Line Number= 25
+   newline starts-------
+
+------newline ends
+<whitespace, __		__>, Line Number= 26
+<Curly Bracket, }>, Line Number= 26
+   newline starts-------
+
+------newline ends
+<whitespace, __		__>, Line Number= 27
+<keyword, break>, Line Number= 27
+<Seperator , ;>, Line Number= 27
+   newline starts-------
+
+------newline ends
+<whitespace, __	__>, Line Number= 28
+<identifier, default>, Line Number= 28
+<Seperator , :>, Line Number= 28
+   newline starts-------
+
+------newline ends
+<whitespace, __		__>, Line Number= 29
+<identifier, prinf>, Line Number= 29
+<parenthesis , (>, Line Number=29
+<literal, "Wrong Input">, Line Number=29
+<parenthesis , )>, Line Number=29
+<Seperator , ;>, Line Number= 29
+   newline starts-------
+
+------newline ends
+<whitespace, __	__>, Line Number= 30
+<Curly Bracket, }>, Line Number= 30
+   newline starts-------
+
+------newline ends
+<Curly Bracket, }>, Line Number= 31
+   newline starts-------
+
+------newline ends
