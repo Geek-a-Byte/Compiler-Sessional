@@ -1,0 +1,188 @@
+keyword int
+ keyword main
+paren (
+paren )
+
+paren {
+
+	keyword int
+ id choice
+punc ,
+id i
+punc ,
+id j
+punc ,
+id a
+assign =
+digit 5
+punc ,
+id b
+assign =
+number 10
+punc ,
+id c
+assign =
+digit 1
+punc ,
+id d
+assign =
+digit 2
+punc ,
+id _oddsum
+assign =
+digit 0
+punc ,
+id _evensum
+assign =
+digit 0
+punc ;
+
+	keyword float
+ id num1
+assign =
+number 3.1416
+punc ;
+
+	keyword double
+ id num2
+assign =
+number 3.15E-2
+punc ;
+ 
+	keyword switch
+paren (
+id choice
+paren )
+
+	paren {
+
+	keyword case
+ digit 1
+punc :
+
+		keyword int
+ id res
+punc ;
+
+		id res
+assign =
+paren (
+id a
+oper +
+id b
+oper -
+id c
+paren )
+oper *
+paren (
+id d
+oper /
+digit 2
+paren )
+punc ;
+
+		keyword break
+punc ;
+
+	keyword case
+ digit 2
+punc :
+
+		keyword for
+paren (
+id i
+assign =
+digit 1
+punc ;
+id i
+comp <=
+number 100
+punc ;
+id i
+inc ++
+paren )
+
+	    	paren {
+
+			keyword if
+paren (
+id i
+oper %
+digit 2
+comp !=
+digit 0
+paren )
+
+				id _oddsum
+assign =
+id _oddsum
+oper +
+id i
+punc ;
+
+			keyword else
+ keyword if
+paren (
+id i
+oper %
+digit 2
+comp ==
+digit 0
+paren )
+
+				id _evensum
+assign =
+id _evensum
+oper +
+id i
+punc ;
+
+	    	paren }
+
+		keyword break
+punc ;
+
+	keyword case
+ digit 3
+punc :
+
+		id j
+assign =
+number 10
+punc ;
+
+		id while
+paren (
+id j
+comp >=
+digit 1
+ logical oper &&
+ id j
+comp <=
+number 10
+paren )
+
+		paren {
+
+			id j
+dec --
+punc ;
+	
+		paren }
+
+		keyword break
+punc ;
+
+	id default
+punc :
+
+		keyword printf
+paren (
+literal "Wrong Input"
+paren )
+punc ;
+
+	paren }
+
+paren }
+

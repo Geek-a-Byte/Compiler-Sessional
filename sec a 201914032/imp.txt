@@ -1,0 +1,13 @@
+-- yylex() call korle auto yywrap() call hoy. so noyywrap likhe dile yywrap() call hobe na
+
+
+--
+Declarations
+%%
+Transition rules ->
+patterns {actions}
+%%
+auxiliary functions
+--
+
+-- [] er moddhe each char ekta single lexim
